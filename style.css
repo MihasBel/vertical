@@ -239,7 +239,7 @@ label {cursor: pointer;}
     color: #ffffff;
 }
 .first-page {
-    height: 100vh;
+    height: auto;
 }
 @media (max-width: 767px) {
     .about-content {

@@ -10,6 +10,7 @@ body {
     padding: 0;
 
     background-image: url("img/bg1.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +19,7 @@ body {
 
     box-sizing: border-box;
 
-    font-family: 'Arvo', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.625;
@@ -35,7 +36,7 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
-    text-shadow: #044F82 0 0 1px;
+
 }
 .navbar {
     position: absolute;
@@ -84,7 +85,7 @@ ul, ol {
 }
 h1, h2, h3, h4, h5, h6, [class*=heading-] {
     margin-bottom: 0;
-    font-family: merriweather,times new roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #293043;
 }
@@ -140,7 +141,7 @@ label {cursor: pointer;}
     top: 2px;
     font-size: 23px;
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 }
 @media (max-width: 1025px) {
     .nav__showmenu{
@@ -193,7 +194,7 @@ label {cursor: pointer;}
     text-align: center;
     text-decoration: none;
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 }
 .menu__item:hover {
     color: #044F82;
@@ -225,7 +226,7 @@ label {cursor: pointer;}
 }
 .navbar-static a {
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 }
 .about {
     width: 100%;
@@ -235,7 +236,7 @@ label {cursor: pointer;}
     margin: 300px auto;
     width: 700px;
     text-align: justify;
-    text-shadow: #044F82 0 2px 1px, #044F82 2px 0 1px, #044F82 0 2px 1px, #044F82 2px 2px 1px;
+
     color: #ffffff;
 }
 .first-page {
@@ -260,7 +261,7 @@ label {cursor: pointer;}
 }
 .about-content small, .about__p{
     font-size: 25px;
-    text-shadow: inherit;
+
 }
 @media (max-width: 767px) {
     .about-content {
@@ -297,7 +298,7 @@ label {cursor: pointer;}
     }
 }
 p, li {
-    text-shadow: #044F82 0 0 1px;
+
     font-size: 20px;
 }
 .about-advantage {
@@ -306,7 +307,7 @@ p, li {
     width: 700px;
     text-align: justify;
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 }
 @media (max-width: 767px) {
     .about-advantage {
@@ -336,7 +337,7 @@ p, li {
 }
 .advantage-list1 img {
     max-width: 500px;
-    border-radius: 20%;
+
     margin-top: -70px;
     width: auto;
 }
@@ -382,7 +383,7 @@ p, li {
 }}
 .advantage-list2 img {
     max-width: 300px;
-    border-radius: 20%;
+
 
 
 }
@@ -413,7 +414,7 @@ p, li {
 
     padding-top: 100px;
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 
 }
 .model-img {
@@ -424,8 +425,8 @@ p, li {
     width: 1200px;
 }
 .model-img img {
-    border-radius: 20%;
-    box-shadow: 0 0 2px 5px #044F82;
+
+    box-shadow: 10px 10px 0px 2px #044F82;
     margin-top: 20px;
     width: 300px;
 }
@@ -435,6 +436,7 @@ p, li {
 .design-list2 img {
     width: auto;
     max-width: 600px;
+    box-shadow: -10px 10px 0px 2px #044F82;
 }
     @media (max-width: 1200px) {
         .model-img {
@@ -475,9 +477,9 @@ footer {
     margin: 0;
     border-top: 1px solid #E9E9EB;
     background-color: #ffffff;
-    font-family: 'Arvo', serif;
+    font-family: 'Roboto', sans-serif;
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
 
 
 
@@ -527,7 +529,7 @@ footer div aside {
 }
 .popup-open img{
     width: 300px;
-    border-radius: 20px;
+
 }
 .popup-open img:hover {
 
@@ -550,7 +552,7 @@ footer div aside {
     position: relative;
 }
 .popup-img {
-    border-radius: 50px;
+
     border: 5px solid #044F82;
     width: 800px;
 }
@@ -675,7 +677,7 @@ footer div aside {
 }
 .tel {
     color: #293043;
-    text-shadow: #044F82 0 0 1px;
+
     font-size: 20px;
 
 }

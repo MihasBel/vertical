@@ -89,7 +89,7 @@ body {
 .mi-slider ul li img {
 	max-width: 100%;
 	border: none;
-	border-radius: 20%;
+	box-shadow: 10px 10px 0px 2px #044F82;
 	width: 230px;
 	height: 206px;
 }

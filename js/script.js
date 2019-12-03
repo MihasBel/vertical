@@ -10,14 +10,21 @@ $(window).scroll(function() {
     }
 });
     // popup
-var popup = document.querySelector('.popup');
-var popupOpen = document.querySelector('.popup-open');
-var popupClose = popup.querySelector('.popup-close');
+let popup = document.querySelector('.popup');
+let popupOpen = document.querySelector('.popup-open');
+let popupClose = popup.querySelector('.popup-close');
 popupOpen.addEventListener('click' , function () {
+
     popup.classList.remove('hidden');
 })
-
-popupClose.addEventListener('click' , function () {
+    popup.addEventListener("click", function(event) {
+        e = event || window.event
+        if (e.target == this) {
+            popup.classList.add("hidden");
+        }
+    });
+popupClose.addEventListener('click' , function (event) {
+    event.preventDefault();
     popup.classList.add('hidden');
 })
 

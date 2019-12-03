@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
 html {
-    height: 100%;
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
 
 
 }

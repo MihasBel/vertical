@@ -57,3 +57,16 @@ var smoothJumpUp = function() {
 
         }
     };
+    //parallax
+
+    function createParallax(selector) {
+        $(Window).scroll(function () {
+            let st = $(this).scrollTop();
+            $(selector).css({
+                "transform" : "translate(0%, -" + st/15 + "%"
+            });
+        });
+    }
+    createParallax(".first_parallax");
+    createParallax(".secondParalla");
+    createParallax(".thirdParalla");
